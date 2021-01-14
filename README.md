@@ -1,3 +1,3 @@
 # GamesKnight
 
-Quize app which allows users to share a generated link to remote rooms to compete. 
+Quize app which allows users to share a generated link to compete in remote rooms. 
