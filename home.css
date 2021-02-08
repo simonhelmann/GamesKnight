@@ -1,0 +1,55 @@
+h1 {
+    color: rgb(29, 173, 209);       
+}
+
+
+
+body {
+    background: linear-gradient(336deg, #f54067, #7126e2, #e94a4a);
+    background-size: 800% 800%;
+    -webkit-animation: AnimationName 51s ease infinite;
+    -moz-animation: AnimationName 51s ease infinite;
+    animation: AnimationName 51s ease infinite;
+}
+    
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 34%}
+    50%{background-position:100% 67%}
+    100%{background-position:0% 34%}
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh
+}
+
+img{
+    display: block;
+   margin-bottom: 20%;
+   margin-left:  14%;
+}
+
+        
+button {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: rgb(1, 18, 255); 
+    width: 300px;
+    cursor: pointer;
+    border: none;
+    border-radius: 100px;
+    height: 50px;
+    color: rgb(149, 178, 255);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 120%;
+}
+        
+button:hover {
+    background-color: rgb(192, 122, 163);
+    transition: 1s;
+}
+
+
+
